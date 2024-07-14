@@ -25,6 +25,14 @@
         <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
         <sonar.language>java</sonar.language>
     </properties>
+    
+    <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0nmxqas4a8wy-artifactory-primary-0-snapshots</name>
+        <url>https://xcer.jfrog.io/artifactory/customer-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 
 <!--     <distributionManagement>
         <repository>
@@ -33,13 +41,7 @@
         </repository>
     </distributionManagement>     -->
 
-   <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0oiyyses3zby-artifactory-primary-0-snapshots</name>
-        <url>https://xceria.jfrog.io/artifactory/customer-libs-snapshot</url>
-    </snapshotRepository>
-</distributionManagement>
+   
     
     <dependencies>
         <dependency>
