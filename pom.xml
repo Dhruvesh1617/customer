@@ -32,6 +32,14 @@
             <url>http://repourl/repository/maven-releases/</url>
         </repository>
     </distributionManagement>     -->
+
+    <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0oiyyses3zby-artifactory-primary-0-snapshots</name>
+        <url>https://xceria.jfrog.io/artifactory/customer-libs-snapshot</url>
+    </snapshotRepository>
+    </distributionManagement>
     
     <dependencies>
         <dependency>
